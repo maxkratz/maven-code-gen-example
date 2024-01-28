@@ -1,0 +1,1 @@
+# maven-code-gen-example
