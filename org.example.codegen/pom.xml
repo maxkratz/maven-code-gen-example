@@ -7,11 +7,12 @@
   <name>Example Code Generator</name>
 
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>pom</packaging>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.resource.version>3.3.1</maven.resource.version>
+    <maven.compiler.version>3.8.1</maven.compiler.version>
+    <build.helper.maven.version>1.8</build.helper.maven.version>
+    <java.version>17</java.version>
   </properties>
 
   <build>
@@ -20,7 +21,7 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>build-helper-maven-plugin</artifactId>
-        <version>1.8</version>
+        <version>${build.helper.maven.version}</version>
         <executions>
           <execution>
             <id>add-sources</id>
@@ -35,11 +36,12 @@
           </execution>
         </executions>
       </plugin>
+
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.1</version>
+        <version>${maven.compiler.version}</version>
         <configuration>
-          <release>17</release>
+          <release>${java.version}</release>
         </configuration>
       </plugin>
     </plugins>
