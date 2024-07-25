@@ -13,7 +13,7 @@
     <maven.compiler.version>3.12.1</maven.compiler.version>
     <build.helper.maven.version>3.5.0</build.helper.maven.version>
     <java.version>17</java.version>
-    <maven.clean.version>3.3.2</maven.clean.version>
+    <maven.clean.version>3.4.0</maven.clean.version>
     <exec.maven.version>3.2.0</exec.maven.version>
   </properties>
 
