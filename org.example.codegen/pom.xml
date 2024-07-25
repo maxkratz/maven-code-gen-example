@@ -11,7 +11,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.version>3.13.0</maven.compiler.version>
-    <build.helper.maven.version>3.5.0</build.helper.maven.version>
+    <build.helper.maven.version>3.6.0</build.helper.maven.version>
     <java.version>17</java.version>
     <maven.clean.version>3.4.0</maven.clean.version>
     <exec.maven.version>3.2.0</exec.maven.version>
