@@ -14,7 +14,7 @@
     <build.helper.maven.version>3.6.1</build.helper.maven.version>
     <java.version>17</java.version>
     <maven.clean.version>3.5.0</maven.clean.version>
-    <exec.maven.version>3.6.0</exec.maven.version>
+    <exec.maven.version>3.6.1</exec.maven.version>
   </properties>
 
   <build>
