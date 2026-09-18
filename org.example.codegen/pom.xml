@@ -10,11 +10,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.version>3.16.0</maven.compiler.version>
-    <build.helper.maven.version>3.6.1</build.helper.maven.version>
-    <java.version>17</java.version>
-    <maven.clean.version>3.5.0</maven.clean.version>
-    <exec.maven.version>3.6.3</exec.maven.version>
+    <java.version>21</java.version>
   </properties>
 
   <build>
@@ -22,7 +18,7 @@
     <plugins>
       <plugin>
         <artifactId>maven-clean-plugin</artifactId>
-        <version>${maven.clean.version}</version>
+        <version>3.5.0</version>
         <configuration>
           <filesets>
             <fileset>
@@ -34,7 +30,7 @@
 
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>${maven.compiler.version}</version>
+        <version>3.16.0</version>
         <configuration>
           <release>${java.version}</release>
         </configuration>
@@ -52,7 +48,7 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>build-helper-maven-plugin</artifactId>
-        <version>${build.helper.maven.version}</version>
+        <version>3.6.2</version>
         <executions>
           <execution>
             <id>add-sources</id>
@@ -71,7 +67,7 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
-        <version>${exec.maven.version}</version>
+        <version>3.6.4</version>
         <executions>
           <execution>
             <phase>process-sources</phase>
